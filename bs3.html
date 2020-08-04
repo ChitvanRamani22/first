@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Feedback</title>
+    <style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: blanchedalmond;
+        
+            }
+            .uy{
+                margin-left: 5%;
+                margin-top: 2%;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+    
+            }
+            .yuo{
+                width: 200px; 
+                height: 26px; 
+                position: absolute;
+                margin-left: 150px;
+            }
+            .io
+            {
+                position: relative;
+                margin-left: 250px;
+                font-display: center;
+               
+            }
+            .ub
+            {
+                position: absolute;
+                margin-left: 33%;
+               height: 35px;
+               width: 140px;
+               background-color: crimson;
+               font-size: 18px;
+               color: white;
+    
+            }
+            .uv
+            {
+                position: absolute;
+                margin-left: 45%;
+               height: 35px;
+               width: 140px;
+               background-color: crimson;
+               font-size: 20px;
+               color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            function func()
+            {
+                alert("Your response has been recorded successfully")
+                window.location="thanku.html";
+            }
+            function funm()
+            {
+                window.location="index.html";
+            }
+        </script>
+        
+</head>
+<body>
+    <h2 style="margin-left: 10px;">Thank You for using Creative Tim services.We value all of our customers and strive to meet everyone's needs.</h2>
+    <h3 style="margin-left: 10px;">Please tell us the details you used our service:</h3>
+    <form class="uy" style="color: black">
+        1.Were yoy satisfied with the customer services we provided you ?<br><br>
+        <input type="radio" name="in" class="io" style="margin-left: 180px;">Yes
+        <input type="radio" name="in" class="io" style="margin-left: 326px;">No
+        <input type="radio" name="in" class="io" style="margin-left: 326px;">Somewhat<br><br>
+        Comments <input type="text" style="height: 20px; width: 600px;"><br><br>
+        2.Was our customer service provided to you in an accessible manner ?<br><br>
+        <input type="radio" name="in" class="io" style="margin-left: 180px;" required>Yes
+        <input type="radio" name="in" class="io" style="margin-left: 326px;">No
+        <input type="radio" name="in" class="io" style="margin-left: 326px;">Somewhat<br><br>
+        Comments <input type="text" style="height: 20px; width: 600px;"><br><br>
+        3.Did you experience any problem accessing our kits or services ?<br><br>
+        <input type="radio" name="in" class="io" style="margin-left: 180px;"required>Yes
+        <input type="radio" name="in" class="io" style="margin-left: 326px;">No
+        <input type="radio" name="in" class="io" style="margin-left: 326px;">Somewhat<br><br>
+        Comments <input type="text" style="height: 20px; width: 600px;"><br><br>
+        <div style="border: 1px dashed black;"></div><br>
+        Your contact information(optional):<br><br>
+         Name: <input type="text" placeholder="Name" class="yuo">
+       <span style="margin-left: 200px;"> </span>Phone Number: <input type="number" placeholder="Phone Number" class="yuo"><br><br><br>
+        Email: <input type="email" placeholder="Email" class="yuo"><br><br><br>
+        <button type="submit" value="submit" class="uv" onclick="func()">Submit</button>
+        <button type="clear" class="ub" onclick="funm()">Back To Home</button>
+        </form>
+         <p style="font-size: 14px; color: black; position: absolute;margin-top: 4%;margin-left: 31%;"> Copyright © 2020 Creative Tim, All Rights Reserved. Made with <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i> for a better web.</p>
+</body>
+</html>
